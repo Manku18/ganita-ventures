@@ -1,0 +1,1411 @@
+{
+  "settings": {
+    "site_name": "Ganita Ventures",
+    "tagline": "Trading • Supplies • Projects • Services",
+    "slogan": "Reliable Supplies. Smarter Business.",
+    "description": "Ganita Ventures connects individuals, institutions and businesses with reliable products, procurement and supply solutions.",
+    "proprietor": "Sushil Kumar",
+    "phone": "+91 8709605306",
+    "email": "ganitaventures87@gmail.com",
+    "address": "Puraniganj, Munger, Bihar - 811201",
+    "gstin": "10AAAAA0000A1Z5",
+    "whatsapp_number": "918709605306",
+    "currency_symbol": "₹",
+    "cod_enabled": true,
+    "payment_gateway_enabled": false,
+    "privacy_policy": "At Ganita Ventures, we prioritize the privacy and security of our clients, institutional buyers, and individual customers...",
+    "terms_conditions": "By accessing Ganita Ventures website or placing procurement orders, you agree to our terms of service..."
+  },
+  "stats": [
+    {
+      "id": "stat_1",
+      "label": "Product Categories",
+      "count": "25+",
+      "icon": "grid"
+    },
+    {
+      "id": "stat_2",
+      "label": "Institutional Clients",
+      "count": "120+",
+      "icon": "building"
+    },
+    {
+      "id": "stat_3",
+      "label": "Orders Fulfilled",
+      "count": "2,500+",
+      "icon": "check-circle"
+    },
+    {
+      "id": "stat_4",
+      "label": "Cities Served",
+      "count": "35+",
+      "icon": "map-pin"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin_1",
+      "username": "admin",
+      "email": "ganitaventures87@gmail.com",
+      "salt": "c84f8841a156e520",
+      "password_hash": "3974842049b446e214d158b691b38b4501c473a30322d8b6b4c6a7ac3d50f36147313b2e56ff039a9d773d09fa388b5caca9e8b399078c968037b57cd15302e2",
+      "role": "super_admin",
+      "name": "Sushil Kumar",
+      "created_at": "2026-10-08T16:06:39.903Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv_1",
+      "name": "General Trading",
+      "slug": "general-trading",
+      "icon": "package",
+      "description": "Wholesale and retail trading of high-grade chemicals, lime powder, bleaching powder, and commercial supplies across Bihar.",
+      "status": "active",
+      "ordering": 1
+    },
+    {
+      "id": "srv_2",
+      "name": "Institutional Supplies",
+      "slug": "institutional-supplies",
+      "icon": "briefcase",
+      "description": "Bulk supply chain management for schools, offices, hospitals, and municipal bodies with guaranteed delivery timelines.",
+      "status": "active",
+      "ordering": 2
+    },
+    {
+      "id": "srv_3",
+      "name": "Industrial & Chemical Sourcing",
+      "slug": "industrial-chemical-sourcing",
+      "icon": "file-text",
+      "description": "Direct manufacturer sourcing of high-grade lime powder, bleaching disinfectant, and chemical raw materials.",
+      "status": "active",
+      "ordering": 3
+    },
+    {
+      "id": "srv_4",
+      "name": "Stationery & Office Procurement",
+      "slug": "stationery-procurement",
+      "icon": "shopping-bag",
+      "description": "Complete office stationery bundles, files, registers, printing paper, and desk tools for institutions.",
+      "status": "active",
+      "ordering": 4
+    },
+    {
+      "id": "srv_5",
+      "name": "Project Supplies & Bulk Orders",
+      "slug": "project-supplies",
+      "icon": "truck",
+      "description": "Tiered volume pricing, direct truckload deliveries, and credit-backed procurement for infrastructure projects.",
+      "status": "active",
+      "ordering": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_1",
+      "name": "Chemicals & Minerals",
+      "slug": "chemicals-minerals"
+    },
+    {
+      "id": "cat_2",
+      "name": "Disinfectants & Sanitation",
+      "slug": "disinfectants-sanitation"
+    },
+    {
+      "id": "cat_3",
+      "name": "Office & Institutional Stationery",
+      "slug": "stationery"
+    }
+  ],
+  "products": [
+    {
+      "sku": "GV-CHM-502",
+      "name": "Hydrated Lime Powder",
+      "category": "Industrial & Sanitation Materials",
+      "short_description": "High quality commercial product sourced by Ganita Ventures.",
+      "description": "Built for industrial and commercial reliability.",
+      "price": 25,
+      "discount_price": 25,
+      "unit": "Bag",
+      "min_order_qty": 1,
+      "stock_qty": 100,
+      "stock_status": "in_stock",
+      "gst_percent": 18,
+      "brand": "Ganita Standard",
+      "mode": "buy_now",
+      "status": "active",
+      "id": "prod_1792121130439",
+      "created_at": "2026-10-16T03:25:30.439Z"
+    },
+    {
+      "sku": "GV-CHM-501",
+      "name": "Bleaching Powder",
+      "category": "Sanitation & Disinfection",
+      "short_description": "High quality commercial product sourced by Ganita Ventures.",
+      "description": "Built for industrial and commercial reliability.",
+      "price": 50,
+      "discount_price": 50,
+      "unit": "Bag",
+      "min_order_qty": 1,
+      "stock_qty": 100,
+      "stock_status": "in_stock",
+      "gst_percent": 18,
+      "brand": "Ganita Standard",
+      "mode": "buy_now",
+      "status": "active",
+      "id": "prod_1792121024241",
+      "created_at": "2026-10-16T03:23:44.241Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "GV-2026-622246",
+      "customer_name": "mayank kumar",
+      "customer_email": "mayankr31032006@gmail.com",
+      "customer_phone": "+919142980654",
+      "shipping_address": "puraniganj",
+      "city": "Munger",
+      "state": "Bihar",
+      "pincode": "811201",
+      "items": [
+        {
+          "id": "prod_lime",
+          "sku": "GV-CHM-101",
+          "name": "High Grade Hydrated Lime Powder (Calcium Hydroxide)",
+          "price": 390,
+          "unit": "50 kg Bag",
+          "image": "lime-powder.svg",
+          "qty": 1
+        }
+      ],
+      "subtotal": 390,
+      "tax": 70,
+      "shipping": 350,
+      "total_amount": 810,
+      "payment_method": "Cash on Delivery",
+      "payment_status": "Pending",
+      "order_status": "Confirmed",
+      "notes": "",
+      "created_at": "2026-10-08T16:12:23.075Z",
+      "updated_at": "2026-10-08T16:19:02.541Z"
+    },
+    {
+      "id": "GV-2026-000101",
+      "customer_name": "Rajesh Sharma",
+      "customer_email": "rajesh.sharma@example.com",
+      "customer_phone": "+91 9835012345",
+      "shipping_address": "Flat 4B, Grand Horizon Towers, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001",
+      "order_date": "2026-10-06T16:06:39.905Z",
+      "items": [
+        {
+          "product_id": "prod_lime",
+          "name": "High Grade Hydrated Lime Powder",
+          "qty": 20,
+          "unit_price": 390,
+          "total": 7800
+        }
+      ],
+      "subtotal": 7800,
+      "tax": 1404,
+      "shipping": 350,
+      "total_amount": 9554,
+      "payment_method": "Cash on Delivery",
+      "payment_status": "Pending",
+      "order_status": "Cancelled",
+      "notes": "Deliver during morning working hours.",
+      "updated_at": "2026-10-12T15:51:58.871Z"
+    }
+  ],
+  "rfqs": [
+    {
+      "id": "RFQ-GV-2026-0001",
+      "org_name": "Munger Municipal Corporation",
+      "contact_person": "Er. A. K. Verma",
+      "designation": "Executive Officer (Sanitation)",
+      "email": "sanitation.munger@bihar.gov.in",
+      "phone": "+91 9431098765",
+      "gstin": "10AAACB1234F1Z9",
+      "org_type": "Government Dept",
+      "delivery_location": "Central Store, Munger, Bihar",
+      "required_products": "High Grade Lime Powder (500 Bags) & Stable Bleaching Powder (200 Drums)",
+      "quantity": "Bulk Project Lot",
+      "expected_delivery_date": "2026-11-15",
+      "budget": "₹ 500,000",
+      "notes": "Please submit formal stamped quotation along with GST compliance certificate.",
+      "document_path": null,
+      "status": "Pending",
+      "created_at": "2026-10-05T16:06:39.905Z"
+    }
+  ],
+  "quotes": [
+    {
+      "ref_no": "GV/PROC/2026-27/QT-9042",
+      "date": "08/10/2026",
+      "recipient_designation": "The Executive Officer / Competent Authority",
+      "recipient_org": "Office of the Nagar Panchayat / Municipal Council",
+      "recipient_location": "Dhamdaha, Bihar.",
+      "recipient_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "recipient_phone": "+91 9835012345",
+      "customer_name": "The Executive Officer / Competent Authority, Office of the Nagar Panchayat / Municipal Council",
+      "customer_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "customer_phone": "+91 9835012345",
+      "subject": "Submission of Formal Quotation for Supply of Hydrated Lime Powder & Bleaching Powder – reg.",
+      "salutation": "Respected Sir/Madam,",
+      "body_text": "With reference to the ongoing sanitation and public health maintenance requirements under your esteemed office, we are pleased to submit our formal rate quotation for the supply of high-grade Hydrated Lime Powder and Bleaching Powder.\n\nGanita Ventures is committed to providing standard-compliant materials with timely execution. The itemized commercial proposal is detailed below for your kind consideration:",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Supply of Hydrated Lime Powder (50 kg Bag) ",
+          "qty": "320 Bags",
+          "unit_rate": 1250,
+          "gst_rate": 18,
+          "taxable_amount": 400000
+        },
+        {
+          "sl": 2,
+          "description": " Bleaching Powder",
+          "qty": "160 Bags",
+          "unit_rate": 2500,
+          "gst_rate": 18,
+          "taxable_amount": 400000
+        }
+      ],
+      "include_gst": true,
+      "include_terms": true,
+      "terms_list": [],
+      "taxable_subtotal": 800000,
+      "gst_rate": 0,
+      "gst_amount": 0,
+      "transport_charges": 0,
+      "gross_total": 800000,
+      "amount_words": "Rupees Eight Lakh only",
+      "concluding_text": "We kindly request you to review our rates and favor us with the supply order. We assure you of our prompt service and highest standards of quality.",
+      "closing": "Thanking you.\n\nYours faithfully,",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "signatory_dept": "",
+      "status": "Submitted",
+      "id": "QT-GV-2026-1961",
+      "created_at": "2026-10-12T17:05:54.343Z"
+    },
+    {
+      "ref_no": "GV/PROC/2026-27/QT-9042",
+      "date": "08/10/2026",
+      "recipient_designation": "The Executive Officer / Competent Authority",
+      "recipient_org": "Office of the Nagar Panchayat / Municipal Council",
+      "recipient_location": "Dhamdaha, Bihar.",
+      "recipient_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "recipient_phone": "+91 9835012345",
+      "customer_name": "The Executive Officer / Competent Authority, Office of the Nagar Panchayat / Municipal Council",
+      "customer_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "customer_phone": "+91 9835012345",
+      "subject": "Submission of Formal Quotation for Supply of Hydrated Lime Powder & Bleaching Powder – reg.",
+      "salutation": "Respected Sir/Madam,",
+      "body_text": "Ganita Ventures is pleased to submit its quotation for the supply of quality materials, including Hydrated Lime Powder and Bleaching Powder, to meet your office’s sanitation and public health requirements with reliable service and timely delivery.\n",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Supply of Hydrated Lime Powder (50 kg Bag) & Bleaching Powder",
+          "qty": "320 Bags",
+          "unit_rate": 1250,
+          "gst_rate": 18,
+          "taxable_amount": 400000
+        }
+      ],
+      "include_gst": true,
+      "include_terms": true,
+      "terms_list": [],
+      "taxable_subtotal": 400000,
+      "gst_rate": 0,
+      "gst_amount": 0,
+      "transport_charges": 0,
+      "gross_total": 400000,
+      "amount_words": "Rupees Four Lakh only",
+      "concluding_text": "We kindly request you to review our rates and favor us with the supply order. We assure you of our prompt service and highest standards of quality.",
+      "closing": "Thanking you.\n\nYours faithfully,",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "signatory_dept": "Procurement Division",
+      "status": "Submitted",
+      "id": "QT-GV-2026-2376",
+      "created_at": "2026-10-12T16:46:27.670Z"
+    },
+    {
+      "ref_no": "GV/PROC/2026-27/QT-9042",
+      "date": "08/10/2026",
+      "recipient_designation": "The Executive Officer / Competent Authority",
+      "recipient_org": "Office of the Nagar Panchayat / Municipal Council",
+      "recipient_location": "Dhamdaha, Bihar.",
+      "recipient_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "recipient_phone": "+91 9835012345",
+      "customer_name": "The Executive Officer / Competent Authority, Office of the Nagar Panchayat / Municipal Council",
+      "customer_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "customer_phone": "+91 9835012345",
+      "subject": "Submission of Formal Quotation for Supply of Hydrated Lime Powder & Bleaching Powder – reg.",
+      "salutation": "Respected Sir/Madam,",
+      "body_text": "Ganita Ventures is pleased to submit its quotation for the supply of quality materials, including Hydrated Lime Powder and Bleaching Powder, to meet your office’s sanitation and public health requirements with reliable service and timely delivery.",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Supply of Hydrated Lime Powder (50 kg Bag) & Bleaching Powder",
+          "qty": "32 Bags",
+          "unit_rate": 1250,
+          "gst_rate": 18,
+          "taxable_amount": 40000
+        }
+      ],
+      "include_gst": true,
+      "include_terms": true,
+      "terms_list": [],
+      "taxable_subtotal": 40000,
+      "gst_rate": 18,
+      "gst_amount": 7200,
+      "transport_charges": 1000,
+      "gross_total": 48200,
+      "amount_words": "Rupees Forty-Eight Thousand Two Hundred only",
+      "concluding_text": "We kindly request you to review our rates and favor us with the supply order. We assure you of our prompt service and highest standards of quality.",
+      "closing": "Thanking you.\n\nYours faithfully,",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "signatory_dept": "Procurement Division",
+      "status": "Submitted",
+      "id": "QT-GV-2026-3950",
+      "created_at": "2026-10-12T16:37:18.466Z"
+    },
+    {
+      "ref_no": "GV/PROC/2026-27/QT-9042",
+      "date": "08/10/2026",
+      "recipient_designation": "The Executive Officer / Competent Authority",
+      "recipient_org": "Office of the Nagar Panchayat / Municipal Council",
+      "recipient_location": "Dhamdaha, Bihar.",
+      "recipient_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "recipient_phone": "+91 9835012345",
+      "customer_name": "The Executive Officer / Competent Authority, Office of the Nagar Panchayat / Municipal Council",
+      "customer_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "customer_phone": "+91 9835012345",
+      "subject": "Submission of Formal Quotation for Supply of Hydrated Lime Powder & Bleaching Powder – reg.",
+      "salutation": "Respected Sir/Madam,",
+      "body_text": "With reference to the ongoing sanitation and public health maintenance requirements under your esteemed office, we are pleased to submit our formal rate quotation for the supply of high-grade Hydrated Lime Powder and Bleaching Powder.\n\nGanita Ventures is committed to providing standard-compliant materials with timely execution. The itemized commercial proposal is detailed below for your kind consideration:",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Supply of Hydrated Lime Powder (50 kg Bag) & Bleaching Powder",
+          "qty": "320 Bags",
+          "unit_rate": 1250,
+          "gst_rate": 18,
+          "taxable_amount": 400000
+        }
+      ],
+      "taxable_subtotal": 400000,
+      "gst_rate": 18,
+      "gst_amount": 72000,
+      "transport_charges": 0,
+      "gross_total": 472000,
+      "amount_words": "Rupees Four Lakh Seventy-Two Thousand only",
+      "validity_term": "This quotation remains valid for acceptance until 30th November 2026.",
+      "payment_term": "30% mobilization advance upon issuance of the formal Purchase / Work Order; balance payment against delivery and physical verification of stock.",
+      "delivery_term": "Direct consignee store delivery within municipal premises / transit store point as designated by the department.",
+      "quality_term": "All bags will be supplied sealed in moisture-proof packaging in compliance with public sanitation grade standards.",
+      "concluding_text": "We kindly request you to review our rates and favor us with the supply order. We assure you of our prompt service and highest standards of quality.",
+      "closing": "Thanking you.\n\nYours faithfully,",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "signatory_dept": "Procurement Division",
+      "status": "Submitted",
+      "id": "QT-GV-2026-3305",
+      "created_at": "2026-10-12T16:23:49.542Z"
+    },
+    {
+      "id": "QT-GV-2026-9042",
+      "ref_no": "GV/PROC/2026-27/QT-9042",
+      "date": "08/10/2026",
+      "recipient_designation": "The Executive Officer / Competent Authority",
+      "recipient_org": "Office of the Nagar Panchayat / Municipal Council",
+      "recipient_location": "Dhamdaha, Bihar.",
+      "recipient_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "recipient_phone": "+91 9835012345",
+      "customer_name": "Office of the Nagar Panchayat / Municipal Council, Dhamdaha",
+      "customer_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "customer_phone": "+91 9835012345",
+      "subject": "Submission of Formal Quotation for Supply of Hydrated Lime Powder & Bleaching Powder – reg.",
+      "salutation": "Respected Sir/Madam,",
+      "body_text": "With reference to the ongoing sanitation and public health maintenance requirements under your esteemed office, we are pleased to submit our formal rate quotation for the supply of high-grade Hydrated Lime Powder and Bleaching Powder.\n\nGanita Ventures is committed to providing standard-compliant materials with timely execution. The itemized commercial proposal is detailed below for your kind consideration:",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Supply of Hydrated Lime Powder (50 kg Bag) & Bleaching Powder",
+          "qty": "32 Bags",
+          "unit_rate": 1250,
+          "gst_rate": 18,
+          "taxable_amount": 40000
+        }
+      ],
+      "taxable_subtotal": 40000,
+      "gst_rate": 18,
+      "gst_amount": 7200,
+      "transport_charges": 1000,
+      "gross_total": 48200,
+      "amount_words": "Rupees Forty-Eight Thousand Two Hundred only",
+      "validity_term": "This quotation remains valid for acceptance until 30th November 2026.",
+      "payment_term": "30% mobilization advance upon issuance of the formal Purchase / Work Order; balance payment against delivery and physical verification of stock.",
+      "delivery_term": "Direct consignee store delivery within municipal premises / transit store point as designated by the department.",
+      "quality_term": "All bags will be supplied sealed in moisture-proof packaging in compliance with public sanitation grade standards.",
+      "concluding_text": "We kindly request you to review our rates and favor us with the supply order. We assure you of our prompt service and highest standards of quality.",
+      "closing": "Thanking you.\n\nYours faithfully,",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "signatory_dept": "Procurement Division",
+      "status": "Submitted",
+      "created_at": "2026-10-08T10:00:00.000Z"
+    }
+  ],
+  "letters": [
+    {
+      "ref_no": "GV/PROC/2026-27/QT-9042",
+      "date": "08/10/2026",
+      "recipient_designation": "The Executive Officer / Competent Authority",
+      "recipient_org": "Office of the Nagar Panchayat / Municipal Council",
+      "recipient_location": "Dhamdaha, Bihar.",
+      "recipient_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "recipient_phone": "+91 9835012345",
+      "customer_name": "The Executive Officer / Competent Authority, Office of the Nagar Panchayat / Municipal Council",
+      "customer_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "customer_phone": "+91 9835012345",
+      "subject": "Submission of Formal Quotation for Supply of Hydrated Lime Powder & Bleaching Powder – reg.",
+      "salutation": "Respected Sir/Madam,",
+      "body_text": "With reference to the ongoing sanitation and public health maintenance requirements under your esteemed office, we are pleased to submit our formal rate quotation for the supply of high-grade Hydrated Lime Powder and Bleaching Powder.\n\nGanita Ventures is committed to providing standard-compliant materials with timely execution. The itemized commercial proposal is detailed below for your kind consideration:",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Supply of Hydrated Lime Powder (50 kg Bag) ",
+          "qty": "320 Bags",
+          "unit_rate": 1250,
+          "gst_rate": 18,
+          "taxable_amount": 400000
+        },
+        {
+          "sl": 2,
+          "description": " Bleaching Powder",
+          "qty": "160 Bags",
+          "unit_rate": 2500,
+          "gst_rate": 18,
+          "taxable_amount": 400000
+        }
+      ],
+      "include_gst": true,
+      "include_terms": true,
+      "terms_list": [],
+      "taxable_subtotal": 800000,
+      "gst_rate": 0,
+      "gst_amount": 0,
+      "transport_charges": 0,
+      "gross_total": 800000,
+      "amount_words": "Rupees Eight Lakh only",
+      "concluding_text": "We kindly request you to review our rates and favor us with the supply order. We assure you of our prompt service and highest standards of quality.",
+      "closing": "Thanking you.\n\nYours faithfully,",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "signatory_dept": "",
+      "status": "Submitted",
+      "id": "QT-GV-2026-1961",
+      "created_at": "2026-10-12T17:05:54.372Z"
+    },
+    {
+      "ref_no": "GV/PROC/2026-27/QT-9042",
+      "date": "08/10/2026",
+      "recipient_designation": "The Executive Officer / Competent Authority",
+      "recipient_org": "Office of the Nagar Panchayat / Municipal Council",
+      "recipient_location": "Dhamdaha, Bihar.",
+      "recipient_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "recipient_phone": "+91 9835012345",
+      "customer_name": "The Executive Officer / Competent Authority, Office of the Nagar Panchayat / Municipal Council",
+      "customer_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "customer_phone": "+91 9835012345",
+      "subject": "Submission of Formal Quotation for Supply of Hydrated Lime Powder & Bleaching Powder – reg.",
+      "salutation": "Respected Sir/Madam,",
+      "body_text": "Ganita Ventures is pleased to submit its quotation for the supply of quality materials, including Hydrated Lime Powder and Bleaching Powder, to meet your office’s sanitation and public health requirements with reliable service and timely delivery.\n",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Supply of Hydrated Lime Powder (50 kg Bag) & Bleaching Powder",
+          "qty": "320 Bags",
+          "unit_rate": 1250,
+          "gst_rate": 18,
+          "taxable_amount": 400000
+        }
+      ],
+      "include_gst": true,
+      "include_terms": true,
+      "terms_list": [],
+      "taxable_subtotal": 400000,
+      "gst_rate": 0,
+      "gst_amount": 0,
+      "transport_charges": 0,
+      "gross_total": 400000,
+      "amount_words": "Rupees Four Lakh only",
+      "concluding_text": "We kindly request you to review our rates and favor us with the supply order. We assure you of our prompt service and highest standards of quality.",
+      "closing": "Thanking you.\n\nYours faithfully,",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "signatory_dept": "Procurement Division",
+      "status": "Submitted",
+      "id": "QT-GV-2026-2376",
+      "created_at": "2026-10-12T16:46:27.684Z"
+    },
+    {
+      "ref_no": "GV/PROC/2026-27/QT-9042",
+      "date": "08/10/2026",
+      "recipient_designation": "The Executive Officer / Competent Authority",
+      "recipient_org": "Office of the Nagar Panchayat / Municipal Council",
+      "recipient_location": "Dhamdaha, Bihar.",
+      "recipient_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "recipient_phone": "+91 9835012345",
+      "customer_name": "The Executive Officer / Competent Authority, Office of the Nagar Panchayat / Municipal Council",
+      "customer_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "customer_phone": "+91 9835012345",
+      "subject": "Submission of Formal Quotation for Supply of Hydrated Lime Powder & Bleaching Powder – reg.",
+      "salutation": "Respected Sir/Madam,",
+      "body_text": "Ganita Ventures is pleased to submit its quotation for the supply of quality materials, including Hydrated Lime Powder and Bleaching Powder, to meet your office’s sanitation and public health requirements with reliable service and timely delivery.",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Supply of Hydrated Lime Powder (50 kg Bag) & Bleaching Powder",
+          "qty": "32 Bags",
+          "unit_rate": 1250,
+          "gst_rate": 18,
+          "taxable_amount": 40000
+        }
+      ],
+      "include_gst": true,
+      "include_terms": true,
+      "terms_list": [],
+      "taxable_subtotal": 40000,
+      "gst_rate": 18,
+      "gst_amount": 7200,
+      "transport_charges": 1000,
+      "gross_total": 48200,
+      "amount_words": "Rupees Forty-Eight Thousand Two Hundred only",
+      "concluding_text": "We kindly request you to review our rates and favor us with the supply order. We assure you of our prompt service and highest standards of quality.",
+      "closing": "Thanking you.\n\nYours faithfully,",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "signatory_dept": "Procurement Division",
+      "status": "Submitted",
+      "id": "QT-GV-2026-3950",
+      "created_at": "2026-10-12T16:37:18.493Z"
+    },
+    {
+      "ref_no": "GV/PROC/2026-27/QT-9042",
+      "date": "08/10/2026",
+      "recipient_designation": "The Executive Officer / Competent Authority",
+      "recipient_org": "Office of the Nagar Panchayat / Municipal Council",
+      "recipient_location": "Dhamdaha, Bihar.",
+      "recipient_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "recipient_phone": "+91 9835012345",
+      "customer_name": "The Executive Officer / Competent Authority, Office of the Nagar Panchayat / Municipal Council",
+      "customer_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "customer_phone": "+91 9835012345",
+      "subject": "Submission of Formal Quotation for Supply of Hydrated Lime Powder & Bleaching Powder – reg.",
+      "salutation": "Respected Sir/Madam,",
+      "body_text": "With reference to the ongoing sanitation and public health maintenance requirements under your esteemed office, we are pleased to submit our formal rate quotation for the supply of high-grade Hydrated Lime Powder and Bleaching Powder.\n\nGanita Ventures is committed to providing standard-compliant materials with timely execution. The itemized commercial proposal is detailed below for your kind consideration:",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Supply of Hydrated Lime Powder (50 kg Bag) & Bleaching Powder",
+          "qty": "320 Bags",
+          "unit_rate": 1250,
+          "gst_rate": 18,
+          "taxable_amount": 400000
+        }
+      ],
+      "taxable_subtotal": 400000,
+      "gst_rate": 18,
+      "gst_amount": 72000,
+      "transport_charges": 0,
+      "gross_total": 472000,
+      "amount_words": "Rupees Four Lakh Seventy-Two Thousand only",
+      "validity_term": "This quotation remains valid for acceptance until 30th November 2026.",
+      "payment_term": "30% mobilization advance upon issuance of the formal Purchase / Work Order; balance payment against delivery and physical verification of stock.",
+      "delivery_term": "Direct consignee store delivery within municipal premises / transit store point as designated by the department.",
+      "quality_term": "All bags will be supplied sealed in moisture-proof packaging in compliance with public sanitation grade standards.",
+      "concluding_text": "We kindly request you to review our rates and favor us with the supply order. We assure you of our prompt service and highest standards of quality.",
+      "closing": "Thanking you.\n\nYours faithfully,",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "signatory_dept": "Procurement Division",
+      "status": "Submitted",
+      "id": "QT-GV-2026-3305",
+      "created_at": "2026-10-12T16:23:49.547Z"
+    },
+    {
+      "id": "LTR-GV-2026-9042",
+      "ref_no": "GV/PROC/2026-27/QT-9042",
+      "date": "08/10/2026",
+      "recipient_designation": "The Executive Officer / Competent Authority",
+      "recipient_org": "Office of the Nagar Panchayat / Municipal Council",
+      "recipient_location": "Dhamdaha, Bihar.",
+      "recipient_email": "nagarpanchayatdhamdhaha@gmail.com",
+      "recipient_phone": "+91 9835012345",
+      "subject": "Submission of Formal Quotation for Supply of Hydrated Lime Powder & Bleaching Powder – reg.",
+      "salutation": "Respected Sir/Madam,",
+      "body_text": "With reference to the ongoing sanitation and public health maintenance requirements under your esteemed office, we are pleased to submit our formal rate quotation for the supply of high-grade Hydrated Lime Powder and Bleaching Powder.\n\nGanita Ventures is committed to providing standard-compliant materials with timely execution. The itemized commercial proposal is detailed below for your kind consideration:",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Supply of Hydrated Lime Powder (50 kg Bag) & Bleaching Powder",
+          "qty": "32 Bags",
+          "unit_rate": 1250,
+          "gst_rate": 18,
+          "taxable_amount": 40000
+        }
+      ],
+      "taxable_subtotal": 40000,
+      "gst_rate": 18,
+      "gst_amount": 7200,
+      "transport_charges": 1000,
+      "gross_total": 48200,
+      "amount_words": "Rupees Forty-Eight Thousand Two Hundred only",
+      "validity_term": "This quotation remains valid for acceptance until 30th November 2026.",
+      "payment_term": "30% mobilization advance upon issuance of the formal Purchase / Work Order; balance payment against delivery and physical verification of stock.",
+      "delivery_term": "Direct consignee store delivery within municipal premises / transit store point as designated by the department.",
+      "quality_term": "All bags will be supplied sealed in moisture-proof packaging in compliance with public sanitation grade standards.",
+      "concluding_text": "We kindly request you to review our rates and favor us with the supply order. We assure you of our prompt service and highest standards of quality.",
+      "closing": "Thanking you.\n\nYours faithfully,",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "signatory_dept": "Procurement Division",
+      "status": "Submitted",
+      "created_at": "2026-10-08T10:00:00.000Z"
+    },
+    {
+      "ref_no": "GV/2026/48/26",
+      "date": "08/10/2026",
+      "recipient_designation": "Executive Officer",
+      "recipient_org": "Nagar Panchayat Dhamdaha (Bihar)",
+      "subject": "Rate Quotation for Bleaching Powder",
+      "body_text": "We are quoting here with our lowest price for your required items:",
+      "items": [
+        {
+          "sl": "1.",
+          "item_name": "Bleaching Powder",
+          "rate_info": "800kg - 48/kg (Extra 18% GST)"
+        },
+        {
+          "sl": "2.",
+          "item_name": "lime",
+          "rate_info": "1600kg-24/kg (Extra 5% GST)"
+        }
+      ],
+      "closing": "Thanks",
+      "signatory": "Sushil Kumar",
+      "signatory_title": "Proprietor",
+      "id": "LTR-2026-800",
+      "created_at": "2026-10-08T16:27:45.030Z"
+    }
+  ],
+  "invoices": [
+    {
+      "invoice_no": "INV/GV/2026-27/355",
+      "invoice_date": "2026-10-16",
+      "due_date": "2026-10-31",
+      "place_of_supply": "Bihar (10)",
+      "po_number": "PO/DHM/2026/892",
+      "vehicle_no": "Road / BR-08-G-4512",
+      "reverse_charge": false,
+      "transport_mode": "Road Delivery",
+      "customer_name": "Nagar Panchayat Dhamdaha",
+      "customer_address": "Main Road, Ward No. 4, Dhamdaha, District Purnea, Bihar - 854301",
+      "customer_gstin": "10ABCDE1234F1Z5",
+      "customer_phone": "+91 9835012345",
+      "customer_email": "nagarpanchayatdhamdaha@gmail.com",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Premium Grade Hydrated Lime Powder (50 Kg Bag)",
+          "hsn": "2522",
+          "qty": 40,
+          "unit": "Kg",
+          "rate_type": "inclusive",
+          "entered_rate": 1003,
+          "unit_rate": 955.24,
+          "rate_with_gst": 1003,
+          "gst_rate": 5,
+          "taxable_amount": 38209.52,
+          "gst_amount": 1910.48,
+          "cgst_amount": 955.24,
+          "sgst_amount": 955.24,
+          "igst_amount": 1910.48,
+          "total_amount": 40120
+        },
+        {
+          "sl": 2,
+          "description": "Stable Bleaching Powder 33% Available Chlorine (25 Kg Bag)",
+          "hsn": "2828",
+          "qty": 30,
+          "unit": "Kg",
+          "rate_type": "inclusive",
+          "entered_rate": 850,
+          "unit_rate": 720.34,
+          "rate_with_gst": 850,
+          "gst_rate": 18,
+          "taxable_amount": 21610.17,
+          "gst_amount": 3889.83,
+          "cgst_amount": 1944.92,
+          "sgst_amount": 1944.92,
+          "igst_amount": 3889.83,
+          "total_amount": 25500
+        }
+      ],
+      "rate_mode": "exclusive",
+      "display_config": {
+        "show_logo": true,
+        "show_tagline": true,
+        "show_company_gstin": true,
+        "show_header_state": true,
+        "show_title_banner": true,
+        "show_customer_name": true,
+        "req_customer_name": true,
+        "show_customer_address": true,
+        "req_customer_address": true,
+        "show_customer_gstin": false,
+        "req_customer_gstin": false,
+        "show_customer_phone": false,
+        "req_customer_phone": false,
+        "show_customer_email": false,
+        "req_customer_email": false,
+        "show_inv_no": true,
+        "req_inv_no": true,
+        "show_inv_date": true,
+        "req_inv_date": true,
+        "show_due_date": false,
+        "req_due_date": false,
+        "show_pos": false,
+        "req_pos": true,
+        "show_po_ref": true,
+        "req_po_ref": false,
+        "show_vehicle": true,
+        "req_vehicle": false,
+        "show_reverse_charge": true,
+        "show_col_hsn": true,
+        "req_col_hsn": false,
+        "show_col_qty": true,
+        "show_col_unit": true,
+        "show_col_rate_exclusive": true,
+        "show_col_rate_inclusive": true,
+        "show_col_taxable": true,
+        "show_col_tax": true,
+        "show_col_total": true,
+        "show_hsn_summary_table": false,
+        "show_freight": true,
+        "show_discount": true,
+        "show_round_off": true,
+        "show_amount_words": true,
+        "show_bank_details": true,
+        "show_terms": false,
+        "req_terms": false,
+        "show_signatory": true
+      },
+      "taxable_subtotal": 59819.69,
+      "cgst_total": 2900.15,
+      "sgst_total": 2900.15,
+      "igst_total": 0,
+      "freight_charges": 1200,
+      "discount": 0,
+      "round_off": 0,
+      "grand_total": 66820,
+      "amount_words": "Rupees Sixty-Six Thousand Eight Hundred Twenty only",
+      "bank_name": "State Bank of India",
+      "bank_account": "3892019283019",
+      "bank_ifsc": "SBIN0000136",
+      "bank_upi": "Munger Branch | 8709605306@upi",
+      "notes": "1. Goods received in sound condition. 2. Payment due within 15 days from delivery date. 3. Subject to Munger Jurisdiction only.",
+      "payment_status": "Pending",
+      "id": "INV-GV-2026-4069",
+      "created_at": "2026-10-16T12:43:06.828Z"
+    },
+    {
+      "invoice_no": "INV/GV/2026-27/377",
+      "invoice_date": "2026-10-16",
+      "due_date": "2026-10-31",
+      "place_of_supply": "Bihar (10)",
+      "po_number": "PO/DHM/2026/892",
+      "vehicle_no": "Road / BR-08-G-4512",
+      "reverse_charge": false,
+      "transport_mode": "Road Delivery",
+      "customer_name": "Nagar Panchayat Dhamdaha",
+      "customer_address": "Main Road, Ward No. 4, Dhamdaha, District Purnea, Bihar - 854301",
+      "customer_gstin": "10ABCDE1234F1Z5",
+      "customer_phone": "+91 9835012345",
+      "customer_email": "nagarpanchayatdhamdaha@gmail.com",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Premium Grade Hydrated Lime Powder (50 Kg Bag)",
+          "hsn": "2522",
+          "qty": 16000,
+          "unit": "Kg",
+          "rate_type": "inclusive",
+          "entered_rate": 25,
+          "unit_rate": 21.19,
+          "rate_with_gst": 25,
+          "gst_rate": 18,
+          "taxable_amount": 338983.05,
+          "gst_amount": 61016.95,
+          "cgst_amount": 30508.47,
+          "sgst_amount": 30508.47,
+          "igst_amount": 61016.95,
+          "total_amount": 400000
+        },
+        {
+          "sl": 2,
+          "description": "Stable Bleaching Powder 33% Available Chlorine (25 Kg Bag)",
+          "hsn": "2828",
+          "qty": 8000,
+          "unit": "Kg",
+          "rate_type": "inclusive",
+          "entered_rate": 50,
+          "unit_rate": 42.37,
+          "rate_with_gst": 50,
+          "gst_rate": 18,
+          "taxable_amount": 338983.05,
+          "gst_amount": 61016.95,
+          "cgst_amount": 30508.47,
+          "sgst_amount": 30508.47,
+          "igst_amount": 61016.95,
+          "total_amount": 400000
+        }
+      ],
+      "rate_mode": "inclusive",
+      "display_config": {
+        "show_logo": true,
+        "show_tagline": true,
+        "show_company_gstin": true,
+        "show_header_state": true,
+        "show_title_banner": true,
+        "show_customer_name": true,
+        "req_customer_name": true,
+        "show_customer_address": true,
+        "req_customer_address": true,
+        "show_customer_gstin": true,
+        "req_customer_gstin": false,
+        "show_customer_phone": true,
+        "req_customer_phone": false,
+        "show_customer_email": false,
+        "req_customer_email": false,
+        "show_inv_no": true,
+        "req_inv_no": true,
+        "show_inv_date": true,
+        "req_inv_date": true,
+        "show_due_date": false,
+        "req_due_date": false,
+        "show_pos": false,
+        "req_pos": true,
+        "show_po_ref": true,
+        "req_po_ref": false,
+        "show_vehicle": true,
+        "req_vehicle": false,
+        "show_reverse_charge": true,
+        "show_col_hsn": true,
+        "req_col_hsn": false,
+        "show_col_qty": true,
+        "show_col_unit": true,
+        "show_col_rate_exclusive": false,
+        "show_col_rate_inclusive": true,
+        "show_col_taxable": true,
+        "show_col_tax": true,
+        "show_col_total": true,
+        "show_hsn_summary_table": false,
+        "show_freight": false,
+        "show_discount": true,
+        "show_round_off": true,
+        "show_amount_words": true,
+        "show_bank_details": false,
+        "show_terms": true,
+        "req_terms": false,
+        "show_signatory": true
+      },
+      "taxable_subtotal": 677966.1,
+      "cgst_total": 61016.95,
+      "sgst_total": 61016.95,
+      "igst_total": 0,
+      "freight_charges": 0,
+      "discount": 0,
+      "round_off": 0,
+      "grand_total": 800000,
+      "amount_words": "Rupees Eight Lakh only",
+      "bank_name": "State Bank of India",
+      "bank_account": "3892019283019",
+      "bank_ifsc": "SBIN0000136",
+      "bank_upi": "Munger Branch | 8709605306@upi",
+      "notes": "1. Goods received in sound condition. 2. Payment due within 15 days from delivery date. 3. Subject to Munger Jurisdiction only.",
+      "payment_status": "Pending",
+      "id": "INV-GV-2026-9083",
+      "created_at": "2026-10-16T05:10:25.756Z",
+      "updated_at": "2026-10-16T05:10:51.954Z"
+    },
+    {
+      "id": "INV-GV-2026-001",
+      "invoice_no": "INV/GV/2026-27/0101",
+      "invoice_date": "2026-10-15",
+      "due_date": "2026-10-30",
+      "po_number": "PO/DHM/2026/892",
+      "po_date": "2026-10-10",
+      "place_of_supply": "Bihar (10)",
+      "reverse_charge": false,
+      "transport_mode": "Road Delivery / Mini Truck",
+      "vehicle_no": "BR-08-G-4512",
+      "customer_name": "Nagar Panchayat Dhamdaha",
+      "customer_address": "Main Road, Ward No. 4, Dhamdaha, District Purnea, Bihar - 854301",
+      "customer_gstin": "10ABCDE1234F1Z5",
+      "customer_phone": "+91 9835012345",
+      "customer_email": "nagarpanchayatdhamdaha@gmail.com",
+      "rate_mode": "exclusive",
+      "items": [
+        {
+          "sl": 1,
+          "description": "Premium Grade Hydrated Lime Powder (50 Kg Bag)",
+          "hsn": "2522",
+          "qty": 40,
+          "unit": "Bags",
+          "rate_type": "exclusive",
+          "unit_rate": 850,
+          "rate_with_gst": 1003,
+          "taxable_amount": 34000,
+          "gst_rate": 18,
+          "cgst_amount": 3060,
+          "sgst_amount": 3060,
+          "total_amount": 40120
+        },
+        {
+          "sl": 2,
+          "description": "Stable Bleaching Powder 33% Chlorine Grade (25 Kg Bag)",
+          "hsn": "2828",
+          "qty": 30,
+          "unit": "Bags",
+          "rate_type": "inclusive",
+          "unit_rate": 720.34,
+          "rate_with_gst": 850,
+          "taxable_amount": 21610.17,
+          "gst_rate": 18,
+          "cgst_amount": 1944.92,
+          "sgst_amount": 1944.92,
+          "total_amount": 25500
+        }
+      ],
+      "taxable_subtotal": 55610.17,
+      "cgst_total": 5004.92,
+      "sgst_total": 5004.92,
+      "igst_total": 0,
+      "freight_charges": 1200,
+      "discount": 0,
+      "round_off": -0.01,
+      "grand_total": 66820,
+      "amount_words": "Rupees Sixty-Six Thousand Eight Hundred Twenty only",
+      "payment_status": "Pending",
+      "bank_name": "State Bank of India",
+      "bank_account": "3892019283019",
+      "bank_ifsc": "SBIN0000136",
+      "bank_branch": "Munger Main Branch",
+      "notes": "1. Goods received in sound condition. 2. Payment due within 15 days from delivery date.",
+      "created_at": "2026-10-15T18:00:00.000Z"
+    }
+  ],
+  "leads": [
+    {
+      "name": "mayank kumar",
+      "company": "mmmm",
+      "email": "mayankr31032006@gmail.com",
+      "phone": "+919142980654",
+      "requirement_type": "Quote Request",
+      "subject": "Website Quote Request",
+      "message": "Inquiry regarding Service: General Trading",
+      "status": "New",
+      "id": "lead_1791817444841",
+      "created_at": "2026-10-12T15:04:04.842Z"
+    },
+    {
+      "name": "mayank kumar",
+      "company": "mmmm",
+      "email": "mayankr31032006@gmail.com",
+      "phone": "+919142980654",
+      "requirement_type": "General Inquiry",
+      "subject": "mmmm",
+      "message": "mmm",
+      "status": "New",
+      "id": "lead_1791476399005",
+      "created_at": "2026-10-08T16:19:59.005Z"
+    },
+    {
+      "name": "mayank kumar",
+      "company": "",
+      "email": "mayankr31032006@gmail.com",
+      "phone": "+919142980654",
+      "requirement_type": "Direct Order",
+      "subject": "Order GV-2026-622246 Placed (₹ 810)",
+      "message": "Delivery Address: puraniganj, Munger, Bihar",
+      "status": "Qualified",
+      "id": "lead_1791475943078",
+      "created_at": "2026-10-08T16:12:23.078Z"
+    },
+    {
+      "id": "lead_1",
+      "name": "Amitabh Choudhary",
+      "company": "Eastern Infra Developers",
+      "email": "amitabh@easterninfra.in",
+      "phone": "+91 9123456780",
+      "requirement_type": "Bulk Procurement",
+      "subject": "Supply of Lime Powder and Disinfectants",
+      "message": "We need bulk lime powder for soil stabilization site near Munger.",
+      "status": "New",
+      "notes": "Followed up via phone.",
+      "created_at": "2026-10-04T16:06:39.905Z"
+    }
+  ],
+  "tenders": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "title": "Medical College & Hospital — Assam",
+      "client": "education dept. , Assam",
+      "location": "Assam, India",
+      "completion_date": "August 2026",
+      "status": "Completed",
+      "project_value": "₹3,75,000",
+      "description": "Bulk supply of stable bleaching powder and hydrated lime powder for citywide monsoon sanitation drive.",
+      "proof_files": [],
+      "updated_at": "2026-10-15T17:19:03.421Z"
+    },
+    {
+      "id": "proj_2",
+      "title": "Bleaching Powder Supply — Cold Storage Facility",
+      "client": "Cold Storage Facility",
+      "location": "Kannauj, Uttar Pradesh, India",
+      "completion_date": "july 2026",
+      "status": "Completed",
+      "project_value": "₹2,00,000",
+      "description": "Supply of bleaching powder for cold storage facility maintenance and sanitation requirements. The project involved material procurement, product packaging coordination, and transportation arrangements to facilitate delivery to the designated location in Kannauj, Uttar Pradesh. The supply was valued at ₹2,00,000.",
+      "proof_files": [],
+      "updated_at": "2026-10-15T17:22:00.667Z"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq_1",
+      "question": "What products does Ganita Ventures supply?",
+      "answer": "We supply industrial materials, cleaning supplies, stationery, and other products based on customer requirements.",
+      "category": "Products"
+    },
+    {
+      "id": "faq_2",
+      "question": "Do you accept bulk and institutional orders?",
+      "answer": "Yes, we accept bulk orders from businesses, institutions, and government departments.",
+      "category": "Orders & Procurement"
+    },
+    {
+      "id": "faq_3",
+      "question": "Can I request a quotation before placing an order?",
+      "answer": "Yes, share your requirements and quantities to receive a customised quotation.",
+      "category": "Quotations"
+    },
+    {
+      "id": "faq_4",
+      "question": "Do you supply to government departments?",
+      "answer": "Yes, we cater to government and institutional supply requirements, subject to applicable tender terms.",
+      "category": "Institutional & Govt"
+    },
+    {
+      "id": "faq_5",
+      "question": "Can I order products not listed on your website?",
+      "answer": "Yes, contact us with your specific requirements, and we'll check availability.",
+      "category": "Custom Sourcing"
+    },
+    {
+      "id": "faq_6",
+      "question": "Do you accept individual orders?",
+      "answer": "Yes, individuals and businesses can enquire about products and place orders.",
+      "category": "Customer Orders"
+    },
+    {
+      "id": "faq_7",
+      "question": "Which locations do you serve?",
+      "answer": "We are based in Munger, Bihar. Delivery availability depends on the product, quantity, and destination.",
+      "category": "Delivery & Logistics"
+    },
+    {
+      "id": "faq_8",
+      "question": "How can I place an order?",
+      "answer": "Browse our products, submit an enquiry, or contact our team directly.",
+      "category": "How to Order"
+    },
+    {
+      "id": "faq_9",
+      "question": "What payment methods do you accept?",
+      "answer": "Payment terms and available methods are confirmed during order processing.",
+      "category": "Payments & Invoicing"
+    },
+    {
+      "id": "faq_10",
+      "question": "How can I contact Ganita Ventures?",
+      "answer": "Reach us by phone or email through our website's contact section.",
+      "category": "Contact & Support"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log_1792154586828_907",
+      "action": "Inserted into invoices",
+      "target": "INV-GV-2026-4069",
+      "timestamp": "2026-10-16T12:43:06.828Z"
+    },
+    {
+      "id": "log_1792127451954_57",
+      "action": "Updated invoices",
+      "target": "INV-GV-2026-9083",
+      "timestamp": "2026-10-16T05:10:51.954Z"
+    },
+    {
+      "id": "log_1792127425756_660",
+      "action": "Inserted into invoices",
+      "target": "INV-GV-2026-9083",
+      "timestamp": "2026-10-16T05:10:25.756Z"
+    },
+    {
+      "id": "log_1792125242141_904",
+      "action": "Deleted from invoices",
+      "target": "INV-GV-2026-3072",
+      "timestamp": "2026-10-16T04:34:02.141Z"
+    },
+    {
+      "id": "log_1792125228415_342",
+      "action": "Inserted into invoices",
+      "target": "INV-GV-2026-3072",
+      "timestamp": "2026-10-16T04:33:48.415Z"
+    },
+    {
+      "id": "log_1792123545414_44",
+      "action": "Deleted from invoices",
+      "target": "INV-GV-2026-6713",
+      "timestamp": "2026-10-16T04:05:45.414Z"
+    },
+    {
+      "id": "log_1792122297811_119",
+      "action": "Inserted into invoices",
+      "target": "INV-GV-2026-6713",
+      "timestamp": "2026-10-16T03:44:57.811Z"
+    },
+    {
+      "id": "log_1792121130439_509",
+      "action": "Inserted into products",
+      "target": "prod_1792121130439",
+      "timestamp": "2026-10-16T03:25:30.439Z"
+    },
+    {
+      "id": "log_1792121024241_302",
+      "action": "Inserted into products",
+      "target": "prod_1792121024241",
+      "timestamp": "2026-10-16T03:23:44.241Z"
+    },
+    {
+      "id": "log_1792120975912_105",
+      "action": "Deleted from products",
+      "target": "prod_bleaching",
+      "timestamp": "2026-10-16T03:22:55.912Z"
+    },
+    {
+      "id": "log_1792120973266_540",
+      "action": "Deleted from products",
+      "target": "prod_stationery",
+      "timestamp": "2026-10-16T03:22:53.266Z"
+    },
+    {
+      "id": "log_1792120970657_422",
+      "action": "Deleted from products",
+      "target": "prod_1791820121371",
+      "timestamp": "2026-10-16T03:22:50.657Z"
+    },
+    {
+      "id": "log_1792120967660_671",
+      "action": "Deleted from products",
+      "target": "prod_1792085112843",
+      "timestamp": "2026-10-16T03:22:47.660Z"
+    },
+    {
+      "id": "log_1792085687822_738",
+      "action": "Deleted from products",
+      "target": "prod_1792085154578",
+      "timestamp": "2026-10-15T17:34:47.822Z"
+    },
+    {
+      "id": "log_1792085154578_980",
+      "action": "Inserted into products",
+      "target": "prod_1792085154578",
+      "timestamp": "2026-10-15T17:25:54.578Z"
+    },
+    {
+      "id": "log_1792085112843_335",
+      "action": "Inserted into products",
+      "target": "prod_1792085112843",
+      "timestamp": "2026-10-15T17:25:12.843Z"
+    },
+    {
+      "id": "log_1792085041353_94",
+      "action": "Deleted from products",
+      "target": "prod_1791476064697",
+      "timestamp": "2026-10-15T17:24:01.353Z"
+    },
+    {
+      "id": "log_1792084920667_37",
+      "action": "Updated projects",
+      "target": "proj_2",
+      "timestamp": "2026-10-15T17:22:00.667Z"
+    },
+    {
+      "id": "log_1792084743421_172",
+      "action": "Updated projects",
+      "target": "proj_1",
+      "timestamp": "2026-10-15T17:19:03.421Z"
+    },
+    {
+      "id": "log_1791824754372_172",
+      "action": "Inserted into letters",
+      "target": "QT-GV-2026-1961",
+      "timestamp": "2026-10-12T17:05:54.372Z"
+    },
+    {
+      "id": "log_1791824754343_111",
+      "action": "Inserted into quotes",
+      "target": "QT-GV-2026-1961",
+      "timestamp": "2026-10-12T17:05:54.343Z"
+    },
+    {
+      "id": "log_1791823587684_372",
+      "action": "Inserted into letters",
+      "target": "QT-GV-2026-2376",
+      "timestamp": "2026-10-12T16:46:27.684Z"
+    },
+    {
+      "id": "log_1791823587671_667",
+      "action": "Inserted into quotes",
+      "target": "QT-GV-2026-2376",
+      "timestamp": "2026-10-12T16:46:27.671Z"
+    },
+    {
+      "id": "log_1791823038493_379",
+      "action": "Inserted into letters",
+      "target": "QT-GV-2026-3950",
+      "timestamp": "2026-10-12T16:37:18.493Z"
+    },
+    {
+      "id": "log_1791823038467_676",
+      "action": "Inserted into quotes",
+      "target": "QT-GV-2026-3950",
+      "timestamp": "2026-10-12T16:37:18.467Z"
+    },
+    {
+      "id": "log_1791822229547_671",
+      "action": "Inserted into letters",
+      "target": "QT-GV-2026-3305",
+      "timestamp": "2026-10-12T16:23:49.547Z"
+    },
+    {
+      "id": "log_1791822229542_40",
+      "action": "Inserted into quotes",
+      "target": "QT-GV-2026-3305",
+      "timestamp": "2026-10-12T16:23:49.542Z"
+    },
+    {
+      "id": "log_1791821899327_151",
+      "action": "Deleted from quotes",
+      "target": "QT-GV-2026-1458",
+      "timestamp": "2026-10-12T16:18:19.327Z"
+    },
+    {
+      "id": "log_1791821867649_546",
+      "action": "Inserted into quotes",
+      "target": "QT-GV-2026-1458",
+      "timestamp": "2026-10-12T16:17:47.649Z"
+    },
+    {
+      "id": "log_1791820318872_524",
+      "action": "Updated orders",
+      "target": "GV-2026-000101",
+      "timestamp": "2026-10-12T15:51:58.872Z"
+    },
+    {
+      "id": "log_1791820121371_708",
+      "action": "Inserted into products",
+      "target": "prod_1791820121371",
+      "timestamp": "2026-10-12T15:48:41.371Z"
+    },
+    {
+      "id": "log_1791817444843_49",
+      "action": "Inserted into leads",
+      "target": "lead_1791817444841",
+      "timestamp": "2026-10-12T15:04:04.843Z"
+    },
+    {
+      "id": "log_1791816192238_839",
+      "action": "Inserted into quotes",
+      "target": "QT-GV-2026-6282",
+      "timestamp": "2026-10-12T14:43:12.238Z"
+    },
+    {
+      "id": "log_1791476865030_378",
+      "action": "Inserted into letters",
+      "target": "LTR-2026-800",
+      "timestamp": "2026-10-08T16:27:45.030Z"
+    },
+    {
+      "id": "log_1791476399005_795",
+      "action": "Inserted into leads",
+      "target": "lead_1791476399005",
+      "timestamp": "2026-10-08T16:19:59.005Z"
+    },
+    {
+      "id": "log_1791476342542_865",
+      "action": "Updated orders",
+      "target": "GV-2026-622246",
+      "timestamp": "2026-10-08T16:19:02.542Z"
+    },
+    {
+      "id": "log_1791476229764_393",
+      "action": "Inserted into quotes",
+      "target": "QT-GV-2026-9042",
+      "timestamp": "2026-10-08T16:17:09.765Z"
+    },
+    {
+      "id": "log_1791476064697_174",
+      "action": "Inserted into products",
+      "target": "prod_1791476064697",
+      "timestamp": "2026-10-08T16:14:24.697Z"
+    },
+    {
+      "id": "log_1791476038699_357",
+      "action": "Deleted from products",
+      "target": "prod_lime",
+      "timestamp": "2026-10-08T16:13:58.700Z"
+    },
+    {
+      "id": "log_1791475943078_46",
+      "action": "Inserted into leads",
+      "target": "lead_1791475943078",
+      "timestamp": "2026-10-08T16:12:23.078Z"
+    },
+    {
+      "id": "log_1791475943075_585",
+      "action": "Inserted into orders",
+      "target": "GV-2026-622246",
+      "timestamp": "2026-10-08T16:12:23.075Z"
+    },
+    {
+      "id": "log_1",
+      "action": "Catalog updated to 3 core product lines",
+      "user": "System",
+      "timestamp": "2026-10-08T16:06:39.905Z"
+    }
+  ]
+}
