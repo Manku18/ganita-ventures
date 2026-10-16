@@ -91,15 +91,30 @@ function showLoginModal() {
   });
 }
 
+// Mobile Sidebar Drawer Toggle Helper
+function toggleAdminSidebar(force) {
+  const sidebar = document.getElementById('admin-sidebar');
+  const backdrop = document.getElementById('admin-sidebar-backdrop');
+  if (!sidebar) return;
+  const isCurrentlyOpen = sidebar.classList.contains('open');
+  const nextState = typeof force === 'boolean' ? force : !isCurrentlyOpen;
+  sidebar.classList.toggle('open', nextState);
+  if (backdrop) backdrop.classList.toggle('active', nextState);
+  if (window.innerWidth <= 992) {
+    document.body.style.overflow = nextState ? 'hidden' : '';
+  }
+}
+
 // Render Admin Application Main Layout
 async function loadAdminDashboard() {
   const app = document.getElementById('admin-app');
   if (!app) return;
 
   app.innerHTML = `
-    <aside class="admin-sidebar">
-      <div class="sidebar-brand">
+    <aside class="admin-sidebar" id="admin-sidebar">
+      <div class="sidebar-brand" style="display: flex; align-items: center; justify-content: space-between;">
         <img src="/assets/img/logo.png" alt="Ganita Ventures">
+        <button class="admin-sidebar-close" onclick="toggleAdminSidebar(false)" aria-label="Close sidebar">&times;</button>
       </div>
       <div class="sidebar-nav">
         <div class="nav-section-title">Overview</div>
@@ -146,13 +161,24 @@ async function loadAdminDashboard() {
       </div>
     </aside>
 
+    <div class="admin-sidebar-backdrop" id="admin-sidebar-backdrop" onclick="toggleAdminSidebar(false)"></div>
+
     <main class="admin-main">
       <header class="admin-header">
-        <div class="header-title" id="page-heading">Dashboard Overview</div>
+        <div style="display: flex; align-items: center; gap: 0.75rem; min-width: 0;">
+          <button class="admin-mobile-toggle" id="admin-mobile-toggle" onclick="toggleAdminSidebar(true)" aria-label="Toggle Navigation">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+          <div class="header-title" id="page-heading" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Dashboard Overview</div>
+        </div>
         <div class="admin-user-profile">
           <div style="text-align: right;">
             <div style="font-weight: 700; font-size: 0.9rem;">Sushil Kumar</div>
-            <div style="font-size: 0.75rem; color: var(--admin-text-muted);">Proprietor • Ganita Ventures</div>
+            <div style="font-size: 0.75rem; color: var(--admin-text-muted);" class="role-text">Proprietor • Ganita Ventures</div>
           </div>
           <div class="avatar-circle">SK</div>
         </div>
@@ -171,6 +197,10 @@ function switchAdminTab(tabName, el) {
   currentAdminView = tabName;
   document.querySelectorAll('.sidebar-link').forEach(l => l.classList.remove('active'));
   if (el) el.classList.add('active');
+
+  if (window.innerWidth <= 992) {
+    toggleAdminSidebar(false);
+  }
 
   const heading = document.getElementById('page-heading');
   heading.textContent = (tabName === 'letters' || tabName === 'quotes') 

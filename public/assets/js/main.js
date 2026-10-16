@@ -108,26 +108,89 @@ document.addEventListener('DOMContentLoaded', () => {
   const navMenu = document.getElementById('nav-menu');
 
   if (mobileBtn && navMenu) {
+    // Backdrop element
+    let backdrop = document.querySelector('.mobile-nav-backdrop');
+    if (!backdrop) {
+      backdrop = document.createElement('div');
+      backdrop.className = 'mobile-nav-backdrop';
+      document.body.appendChild(backdrop);
+    }
+
+    // Add close button and quick actions to drawer if not already added
+    if (!navMenu.querySelector('.nav-menu-drawer-header')) {
+      const headerDiv = document.createElement('div');
+      headerDiv.className = 'nav-menu-drawer-header';
+      headerDiv.innerHTML = `
+        <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.15rem; color: var(--secondary);">Navigation</span>
+        <button class="nav-menu-close" id="nav-menu-close" aria-label="Close Navigation Menu">&times;</button>
+      `;
+      navMenu.insertBefore(headerDiv, navMenu.firstChild);
+
+      const closeBtn = headerDiv.querySelector('#nav-menu-close');
+      if (closeBtn) {
+        closeBtn.addEventListener('click', () => closeNav());
+      }
+    }
+
+    if (!navMenu.querySelector('.nav-menu-actions')) {
+      const actionsDiv = document.createElement('div');
+      actionsDiv.className = 'nav-menu-actions';
+      actionsDiv.innerHTML = `
+        <a href="/quote" class="btn btn-primary btn-sm">Request a Quote</a>
+        <a href="/track-order" class="btn btn-outline btn-sm">Track Order Status</a>
+        <a href="tel:+918709605306" class="btn btn-secondary btn-sm" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+          📞 Call: +91 8709605306
+        </a>
+      `;
+      navMenu.appendChild(actionsDiv);
+    }
+
+    const openNav = () => {
+      navMenu.classList.add('show');
+      mobileBtn.setAttribute('aria-expanded', 'true');
+      backdrop.classList.add('active');
+      if (window.innerWidth <= 1040) {
+        document.body.style.overflow = 'hidden';
+      }
+    };
+
+    const closeNav = () => {
+      navMenu.classList.remove('show');
+      mobileBtn.setAttribute('aria-expanded', 'false');
+      backdrop.classList.remove('active');
+      document.body.style.overflow = '';
+    };
+
     mobileBtn.addEventListener('click', (e) => {
       e.stopPropagation();
-      const isOpen = navMenu.classList.toggle('show');
-      mobileBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      const isOpen = navMenu.classList.contains('show');
+      if (isOpen) {
+        closeNav();
+      } else {
+        openNav();
+      }
     });
+
+    backdrop.addEventListener('click', closeNav);
 
     // Close when clicking outside
     document.addEventListener('click', (e) => {
       if (!navMenu.contains(e.target) && !mobileBtn.contains(e.target) && navMenu.classList.contains('show')) {
-        navMenu.classList.remove('show');
-        mobileBtn.setAttribute('aria-expanded', 'false');
+        closeNav();
       }
     });
 
     // Close when clicking any nav link
-    navMenu.querySelectorAll('.nav-link').forEach(link => {
-      link.addEventListener('click', () => {
-        navMenu.classList.remove('show');
-        mobileBtn.setAttribute('aria-expanded', 'false');
-      });
+    navMenu.querySelectorAll('.nav-link, .nav-menu-actions a').forEach(link => {
+      link.addEventListener('click', closeNav);
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && navMenu.classList.contains('show')) {
+        closeNav();
+      }
     });
   }
 });
+

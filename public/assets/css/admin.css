@@ -421,3 +421,198 @@ body.admin-body {
   cursor: pointer;
 }
 
+/* ==========================================================================
+   Admin Mobile Responsive Controls & Breakpoints
+   ========================================================================== */
+
+/* Admin Mobile Hamburger Button */
+.admin-mobile-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid var(--admin-border);
+  color: var(--admin-text);
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.admin-mobile-toggle:hover {
+  background: rgba(242, 130, 26, 0.15);
+  color: var(--admin-primary);
+  border-color: var(--admin-primary);
+}
+
+/* Sidebar Close Button on Mobile */
+.admin-sidebar-close {
+  display: none;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--admin-border);
+  color: var(--admin-text);
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  transition: all 0.2s ease;
+}
+
+.admin-sidebar-close:hover {
+  background: rgba(239, 68, 68, 0.2);
+  color: #EF4444;
+}
+
+/* Backdrop Overlay */
+.admin-sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.admin-sidebar-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Table Responsive Scrolling Wrapper */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1.5rem;
+}
+
+/* Admin Screens <= 992px (Tablets & Mobile Drawer) */
+@media (max-width: 992px) {
+  .admin-mobile-toggle {
+    display: inline-flex;
+  }
+
+  .admin-sidebar-close {
+    display: inline-flex;
+  }
+
+  .admin-sidebar {
+    transform: translateX(-100%);
+    z-index: 1000;
+    width: 280px;
+    max-width: 86vw;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
+  }
+
+  .admin-sidebar.open {
+    transform: translateX(0);
+  }
+
+  .admin-main {
+    margin-left: 0 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .admin-header {
+    padding: 0 1.25rem;
+    height: 66px;
+  }
+
+  .admin-body-content {
+    padding: 1.25rem 1rem;
+  }
+
+  /* Automatically collapse multi-column admin grids to single column */
+  div[style*="grid-template-columns: 2fr 1fr"],
+  div[style*="grid-template-columns: 1.3fr 0.7fr"],
+  div[style*="grid-template-columns: 1.2fr 0.8fr"],
+  div[style*="grid-template-columns: 1fr 1fr"],
+  div[style*="grid-template-columns: 1fr 1fr 1fr"],
+  .admin-grid-2,
+  .admin-grid-3 {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  /* iOS Safari 16px Font Auto-Zoom Protection */
+  input, select, textarea, .form-control {
+    font-size: 16px !important;
+    min-height: 42px;
+  }
+}
+
+/* Admin Screens <= 600px (Mobile Phones) */
+@media (max-width: 600px) {
+  .admin-header {
+    height: 60px;
+    padding: 0 0.85rem;
+  }
+
+  .header-title {
+    font-size: 1.05rem;
+  }
+
+  .admin-user-profile > div > div:last-child {
+    display: none;
+  }
+
+  .admin-body-content {
+    padding: 1rem 0.6rem;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .metric-card {
+    padding: 1rem;
+  }
+
+  /* Modal responsiveness on mobile */
+  .modal-overlay {
+    padding: 0.5rem;
+  }
+
+  .modal-container {
+    width: 100%;
+    max-height: 94vh;
+    border-radius: 12px;
+  }
+
+  .modal-header, .modal-body, .modal-footer {
+    padding: 1rem 0.85rem;
+  }
+
+  .card-header, .card-body {
+    padding: 1rem 0.85rem;
+  }
+
+  /* Form action buttons wrap neatly on mobile */
+  .admin-action-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .admin-action-row .btn {
+    width: 100%;
+  }
+}
+
+
