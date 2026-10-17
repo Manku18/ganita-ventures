@@ -1,4 +1,4 @@
-# robots.txt for Ganita Ventures (https://ganitaventures.com)
+# robots.txt for Ganita Ventures (https://ganitaventures.company)
 User-agent: *
 Allow: /
 Disallow: /admin
@@ -7,4 +7,4 @@ Disallow: /api/
 Disallow: /data/
 
 # Sitemap location
-Sitemap: https://ganitaventures.com/sitemap.xml
+Sitemap: https://ganitaventures.company/sitemap.xml
